@@ -65,14 +65,17 @@ p, ul { margin: 0 0 1rem; }
 .product img { width: 88px; height: 88px; border-radius: 20px; flex: none; }
 .product strong { display: block; font-size: 1.3rem; }
 .product .muted { font-size: 0.95rem; line-height: 1.4; display: block; }
-.soon {
+.button {
   display: inline-block;
   margin-top: 1rem;
-  padding: 0.75rem 1.5rem;
+  padding: 0.85rem 1.75rem;
   border-radius: 999px;
-  background: var(--raised);
-  color: var(--cloud);
+  background: var(--lilac);
+  color: var(--night);
+  font-weight: 600;
+  text-decoration: none;
 }
+.button:hover { background: var(--cloud); }
 
 footer {
   max-width: 42rem;
